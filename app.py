@@ -1,8 +1,8 @@
-import streamlit as st
+import os
 import numpy as np
 import joblib
 import gdown
-import os
+import streamlit as st
 
 # Google Drive file ID for the model
 MODEL_FILE_ID = "1zVfoW_vuMVwOBQ1pL4axJtMj2RiRmFrg"  # replace with your actual file ID
