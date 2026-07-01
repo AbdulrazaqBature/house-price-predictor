@@ -5,13 +5,13 @@ import gdown
 import os
 
 # Google Drive file ID for the model
-MODEL_FILE_ID = "1A2B3C4D5E6F7G8H9I0J"  # replace with your actual file ID
+MODEL_FILE_ID = "1zVfoW_vuMVwOBQ1pL4axJtMj2RiRmFrg"  # replace with your actual file ID
 MODEL_PATH = "house_price_model.pkl"
 
 # Download the model only if it doesn't already exist
 if not os.path.exists(MODEL_PATH):
     with st.spinner("Downloading model... please wait"):
-        gdown.download(f"https://drive.google.com/uc?id={MODEL_FILE_ID}", MODEL_PATH, quiet=False)
+        gdown.download(f"https://drive.google.com/uc?id={1zVfoW_vuMVwOBQ1pL4axJtMj2RiRmFrg}", MODEL_PATH, quiet=False)
 
 # Load the model
 model = joblib.load(MODEL_PATH)
