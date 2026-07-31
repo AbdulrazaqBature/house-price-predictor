@@ -5,8 +5,8 @@ import gdown
 import streamlit as st
 
 # Google Drive file ID for the model
-MODEL_FILE_ID = "1zVfoW_vuMVwOBQ1pL4axJtMj2RiRmFrg"  # replace with your actual file ID
-MODEL_PATH = "house_price_model.pkl"
+MODEL_FILE_ID = "1zVfoW_vuMVwOBQ1pL4axJtMj2RiRmFrg"  # this is the file ID
+MODEL_PATH = "house_price_model.pkl" # the model
 
 # Download the model only if it doesn't already exist
 if not os.path.exists(MODEL_PATH):
