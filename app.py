@@ -6,10 +6,10 @@ import streamlit as st
 
 # ── Model & encoder file IDs from Google Drive ──────────────────────────
 MODEL_FILE_ID   = "1m4Z1naXDe2AhPXjJGHA-ROwlzgfvA7AZ"       # nigeria_house_price_model.pkl
-SCALER_FILE_ID  = 'scaler(1).pkl'      # scaler.pkl
-TITLE_FILE_ID   = 'le_tittle.pkl'   # le_title.pkl
-TOWN_FILE_ID    = 'le_town.pkl'    # le_town.pkl
-STATE_FILE_ID   = 'le_state.pkl'    # le_state.pkl
+SCALER_FILE_ID  = "1A3L75OiUg5AxDmk32M9tw_l0A6yRfimC"      # scaler.pkl
+TITLE_FILE_ID   = "1Y4CX9kq8GDUxAzpC1Dyg5u1Hiv41ilqz"   # le_title.pkl
+TOWN_FILE_ID    = "1G3dlutHHUvKp44J1kMxJ4knzU5_twWwS"   # le_town.pkl
+STATE_FILE_ID   = "1f9dFt_dt3U4xUS_i9cKsm7iKjzHc3IN5"    # le_state.pkl
 
 # ── Auto-download files from Google Drive if not present ────────────────
 files_to_download = {
